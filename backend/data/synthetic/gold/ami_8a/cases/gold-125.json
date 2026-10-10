@@ -1,0 +1,89 @@
+{
+  "resourceType": "Bundle",
+  "id": "gold-125",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-125",
+        "birthDate": "1943-12-11",
+        "gender": "female"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-125",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I21.0",
+              "display": "ST elevation (STEMI) myocardial infarction"
+            }
+          ],
+          "text": "ST elevation (STEMI) myocardial infarction"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "onsetDateTime": "2024-05-23T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-125",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "period": {
+          "start": "2024-05-23T05:00:00Z",
+          "end": "2024-05-27T14:00:00Z"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-125",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "93000",
+              "display": "Diagnostic ECG"
+            }
+          ],
+          "text": "Diagnostic ECG"
+        },
+        "performedDateTime": "2024-05-23T05:00:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "note-125",
+        "status": "current",
+        "type": {
+          "text": "Discharge Summary"
+        },
+        "content": [
+          {
+            "attachment": {
+              "data": "HISTORY OF PRESENT ILLNESS:\nDrew is a 81-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 73 minutes; primary PCI performed with stent placement (procedure not yet coded in this record).\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

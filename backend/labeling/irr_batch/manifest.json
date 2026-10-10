@@ -1,0 +1,157 @@
+{
+  "n_cases": 30,
+  "per_measure": 15,
+  "sample_seed": 1337,
+  "cases": [
+    {
+      "case_id": "gold-069",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "denominator_false_age"
+    },
+    {
+      "case_id": "gold-076",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "denominator_false_no_dx"
+    },
+    {
+      "case_id": "gold-088",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "denominator_false_no_visit"
+    },
+    {
+      "case_id": "gold-108",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "exclusion_frailty"
+    },
+    {
+      "case_id": "gold-098",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "exclusion_hospice"
+    },
+    {
+      "case_id": "gold-105",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "exclusion_pregnancy"
+    },
+    {
+      "case_id": "gold-117",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "gap_dx_note_only"
+    },
+    {
+      "case_id": "gold-130",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "gap_exclusion_note_only"
+    },
+    {
+      "case_id": "gold-123",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "gap_hba1c_good_control_note_only"
+    },
+    {
+      "case_id": "gold-045",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "numerator_false_controlled"
+    },
+    {
+      "case_id": "gold-020",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "numerator_true_high"
+    },
+    {
+      "case_id": "gold-056",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "numerator_true_missing"
+    },
+    {
+      "case_id": "gold-068",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "denominator_false_age"
+    },
+    {
+      "case_id": "gold-084",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "denominator_false_no_dx"
+    },
+    {
+      "case_id": "gold-086",
+      "measure_id": "diabetes_hba1c",
+      "case_type": "denominator_false_no_visit"
+    },
+    {
+      "case_id": "gold-086",
+      "measure_id": "ami_8a",
+      "case_type": "denominator_false_age"
+    },
+    {
+      "case_id": "gold-057",
+      "measure_id": "ami_8a",
+      "case_type": "denominator_false_no_ami_dx"
+    },
+    {
+      "case_id": "gold-070",
+      "measure_id": "ami_8a",
+      "case_type": "denominator_false_no_pci"
+    },
+    {
+      "case_id": "gold-078",
+      "measure_id": "ami_8a",
+      "case_type": "denominator_false_not_hospitalized"
+    },
+    {
+      "case_id": "gold-099",
+      "measure_id": "ami_8a",
+      "case_type": "exclusion_comfort_measures"
+    },
+    {
+      "case_id": "gold-112",
+      "measure_id": "ami_8a",
+      "case_type": "exclusion_pci_prior_to_arrival"
+    },
+    {
+      "case_id": "gold-106",
+      "measure_id": "ami_8a",
+      "case_type": "exclusion_transfer"
+    },
+    {
+      "case_id": "gold-116",
+      "measure_id": "ami_8a",
+      "case_type": "gap_ami_dx_note_only"
+    },
+    {
+      "case_id": "gold-128",
+      "measure_id": "ami_8a",
+      "case_type": "gap_exclusion_note_only"
+    },
+    {
+      "case_id": "gold-126",
+      "measure_id": "ami_8a",
+      "case_type": "gap_pci_time_note_only"
+    },
+    {
+      "case_id": "gold-049",
+      "measure_id": "ami_8a",
+      "case_type": "numerator_false_slow_pci"
+    },
+    {
+      "case_id": "gold-006",
+      "measure_id": "ami_8a",
+      "case_type": "numerator_true_fast_pci"
+    },
+    {
+      "case_id": "gold-090",
+      "measure_id": "ami_8a",
+      "case_type": "denominator_false_age"
+    },
+    {
+      "case_id": "gold-059",
+      "measure_id": "ami_8a",
+      "case_type": "denominator_false_no_ami_dx"
+    },
+    {
+      "case_id": "gold-067",
+      "measure_id": "ami_8a",
+      "case_type": "denominator_false_no_pci"
+    }
+  ]
+}

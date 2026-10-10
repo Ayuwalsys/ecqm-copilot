@@ -1,0 +1,71 @@
+{
+  "resourceType": "Bundle",
+  "id": "gold-058",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-058",
+        "birthDate": "1965-04-28",
+        "gender": "male"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-058",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus without complications"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "onsetDateTime": "2011-01-01"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-058",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "period": {
+          "start": "2024-01-18T09:00:00Z",
+          "end": "2024-01-18T10:00:00Z"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "note-058",
+        "status": "current",
+        "type": {
+          "text": "Progress Note"
+        },
+        "content": [
+          {
+            "attachment": {
+              "data": "ASSESSMENT AND PLAN:\nSam is a 59-year-old patient presenting for follow-up.\n\nLABORATORY:\nNo HbA1c on file for this measurement period.\n\nPLAN:\nContinue current management, follow up as scheduled."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

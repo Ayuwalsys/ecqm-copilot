@@ -1,0 +1,95 @@
+{
+  "resourceType": "Bundle",
+  "id": "gold-039",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-039",
+        "birthDate": "1962-01-03",
+        "gender": "female"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-039",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "E11.9",
+              "display": "Type 2 diabetes mellitus without complications"
+            }
+          ],
+          "text": "Type 2 diabetes mellitus without complications"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "onsetDateTime": "2018-01-01"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-039",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "period": {
+          "start": "2024-08-09T09:00:00Z",
+          "end": "2024-08-09T10:00:00Z"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-039",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c"
+            }
+          ],
+          "text": "Hemoglobin A1c"
+        },
+        "effectiveDateTime": "2024-08-09T09:00:00Z",
+        "valueQuantity": {
+          "value": 6.1,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "note-039",
+        "status": "current",
+        "type": {
+          "text": "Progress Note"
+        },
+        "content": [
+          {
+            "attachment": {
+              "data": "ASSESSMENT AND PLAN:\nCasey is a 62-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 6.1% (2024-08-09).\n\nPLAN:\nContinue current management, follow up as scheduled."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

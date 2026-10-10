@@ -1,0 +1,239 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+h2.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+.wrap{padding:1rem 0;font-size:13px}
+.top-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;padding-bottom:1rem;border-bottom:0.5px solid var(--color-border-tertiary)}
+.top-title{font-size:17px;font-weight:500;color:var(--color-text-primary)}
+.top-sub{font-size:12px;color:var(--color-text-secondary);margin-top:2px}
+.badge{display:inline-block;font-size:11px;font-weight:500;padding:3px 10px;border-radius:20px;white-space:nowrap}
+.b-blue{background:#E6F1FB;color:#0C447C}
+.b-teal{background:#E1F5EE;color:#085041}
+.b-amber{background:#FAEEDA;color:#633806}
+.b-purple{background:#EEEDFE;color:#3C3489}
+.b-coral{background:#FAECE7;color:#4A1B0C}
+.b-navy{background:#0C2340;color:#fff}
+.section{margin-bottom:1.75rem}
+.sec-head{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.sec-icon{font-size:18px;color:var(--color-text-secondary)}
+.sec-title{font-size:14px;font-weight:500;color:var(--color-text-primary)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:10px}
+.card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);padding:12px 14px}
+.card:hover{border-color:var(--color-border-secondary)}
+.card-label{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.card-title{font-size:13px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.card-body{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.kv{display:flex;align-items:flex-start;gap:8px;padding:7px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.kv:last-child{border-bottom:none}
+.kk{font-size:12px;font-weight:500;color:var(--color-text-primary);min-width:160px;flex-shrink:0}
+.kv-val{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.tag-row{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.gate-row{display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.gate-row:last-child{border-bottom:none}
+.gate-phase{font-size:11px;font-weight:500;min-width:100px;padding-top:1px}
+.gate-text{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.pub-row{display:flex;align-items:flex-start;gap:10px;padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary)}
+.pub-row:last-child{border-bottom:none}
+.pub-when{font-size:11px;font-weight:500;min-width:80px;padding-top:1px;color:#185FA5}
+.pub-text{font-size:12px;color:var(--color-text-secondary);line-height:1.5}
+.risk-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;padding:6px 0;border-bottom:0.5px solid var(--color-border-tertiary);font-size:12px}
+.risk-row:last-child{border-bottom:none}
+.risk-head{font-size:11px;font-weight:500;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:.04em;padding-bottom:4px}
+.ask-btn{display:inline-flex;align-items:center;gap:4px;margin-top:12px;font-size:12px;color:var(--color-text-info);cursor:pointer;background:none;border:none;padding:0;text-decoration:underline;text-underline-offset:2px}
+.divider{height:0.5px;background:var(--color-border-tertiary);margin:1.5rem 0}
+</style>
+
+<h2 class="sr-only">eCQM Copilot project keynotes — a structured summary of all key decisions, deliverables, and milestones discussed in this session</h2>
+
+<div class="wrap">
+<div class="top-bar">
+  <div>
+    <div class="top-title">eCQM Copilot — Session Keynotes</div>
+    <div class="top-sub">Clinical Quality Measure Abstraction · NIW EB-2 Proposed Endeavor · Full session summary</div>
+  </div>
+  <span class="badge b-navy">May 2026</span>
+</div>
+
+<!-- 1. PROJECT IDENTITY -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-target sec-icon" aria-hidden="true"></i><span class="sec-title">1 · Project identity</span></div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-label">What it is</div>
+      <div class="card-title">Clinical Quality Measure Copilot (eCQM/HEDIS)</div>
+      <div class="card-body">A FHIR-native, privacy-preserving AI service that automates clinical quality measure abstraction with clinician-verifiable evidence, full provenance, and multi-site reproducibility.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">What it solves</div>
+      <div class="card-title">The 5 core outcomes</div>
+      <div class="card-body">① Clinician time drain (50–70% reduction) · ② Reporting delays → near real-time · ③ Site inconsistency → standards-based · ④ Black-box AI → evidence spans · ⑤ Patient care gaps closed faster</div>
+    </div>
+    <div class="card">
+      <div class="card-label">NIW framing</div>
+      <div class="card-title">Independent open research — no employer tie</div>
+      <div class="card-body">Anchored in public datasets (MIMIC-IV-Note, Synthea, n2c2, CMS public eCQM specs). Published under personal research identity. Open spec benefits national infrastructure regardless of employer.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 2. ARCHITECTURE -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-cpu sec-icon" aria-hidden="true"></i><span class="sec-title">2 · Architecture keynotes</span></div>
+  <div class="card">
+    <div class="kv"><span class="kk">Pipeline layers</span><span class="kv-val">Ingest + PHI guard → Section-aware retrieval → RAG + LLM extraction → Deterministic eCQM rules → Safety validation → Reviewer UI → MeasureReport + Provenance (FHIR)</span></div>
+    <div class="kv"><span class="kk">Hybrid engine</span><span class="kv-val">LLM handles unstructured note reading; deterministic YAML rules enforce time windows, value thresholds, and exclusions. Conflict between the two → auto-route to reviewer. Neither alone is trustworthy enough.</span></div>
+    <div class="kv"><span class="kk">Evidence spans</span><span class="kv-val">Every extracted fact carries character-level offsets back to the source document. Field with value but no span = hallucination flag. Schema-first, not a post-processing check.</span></div>
+    <div class="kv"><span class="kk">Versioned logic library</span><span class="kk"></span><span class="kv-val">Measure logic in <code>measures/*.yaml</code> with cryptographic hashes. Every decision object references the exact logic version — reproducible audit years later.</span></div>
+    <div class="kv"><span class="kk">Provenance ledger</span><span class="kv-val">Who/what/when/why per decision. Emits FHIR MeasureReport + Provenance on reviewer commit. site_id + tenant_id in every seed from day 1.</span></div>
+    <div class="kv"><span class="kk">Deployment</span><span class="kv-val">FastAPI backend (Render.com) + Streamlit frontend (Streamlit Community Cloud or Render). Mock mode runs offline — demo works without backend. render.yaml auto-configures both services.</span></div>
+  </div>
+</div>
+
+<!-- 3. PHASE 1 MEASURES -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-stethoscope sec-icon" aria-hidden="true"></i><span class="sec-title">3 · Measures — phase decisions</span></div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-label" style="color:#085041">Phase 1 — start here</div>
+      <div class="card-title">diabetes_hba1c · ami_8a</div>
+      <div class="card-body">Two measures with different abstraction profiles: HbA1c = lab value + threshold (semi-structured); AMI-8a = time-stamped procedural (highly structured). Contrast early, validate the pipeline, then expand.</div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="color:#633806">Phase 2 additions</div>
+      <div class="card-title">STK-4 · VTE prophylaxis · Heart Failure education</div>
+      <div class="card-body">Add after Phase 1 pipeline is validated. STK-4 and VTE add complexity (multi-condition logic). Heart Failure education adds documentation-based abstraction.</div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="color:#3C3489">Phase 3 (6–12 months)</div>
+      <div class="card-title">HEDIS multi-period lookback</div>
+      <div class="card-body">Hypertension control, colorectal cancer screening — require multi-period lookback logic. Target 8–10 total measures live by 12-month milestone.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 4. DATA SOURCES -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-database sec-icon" aria-hidden="true"></i><span class="sec-title">4 · Data source suitability rulings</span></div>
+  <div class="card">
+    <div class="risk-row" style="font-size:11px;font-weight:500;color:var(--color-text-secondary)">
+      <div>Source</div><div>Suitability</div><div>Key constraint</div>
+    </div>
+    <div class="risk-row">
+      <div style="font-weight:500">Synthea</div>
+      <div><span class="badge b-teal">✅ Use now</span></div>
+      <div>Zero friction. Keep Modules filter to diabetes/AMI cohorts. Notes are thin — supplement with hand-crafted notes for span annotation.</div>
+    </div>
+    <div class="risk-row">
+      <div style="font-weight:500">MIMIC-IV-Note v3.1</div>
+      <div><span class="badge b-amber">⚠ Apply early</span></div>
+      <div>4–8 week credentialing delay (staffing issues noted). ICU/ED skew — sparse outpatient diabetes notes. Derived datasets must stay under PhysioNet DUA.</div>
+    </div>
+    <div class="risk-row">
+      <div style="font-weight:500">n2c2 datasets</div>
+      <div><span class="badge b-amber">⚠ Supplement only</span></div>
+      <div>Gold annotations for NER/relations, not eCQM abstraction. Requires MIMIC + UW DUAs. Use for cross-validation, not primary training signal.</div>
+    </div>
+    <div class="risk-row">
+      <div style="font-weight:500">CMS eCQM specs</div>
+      <div><span class="badge b-teal">✅ Use now</span></div>
+      <div>Fully open federal regulation. Zero licensing restrictions. Strongest NIW anchor.</div>
+    </div>
+    <div class="risk-row">
+      <div style="font-weight:500">MTSamples</div>
+      <div><span class="badge b-teal">✅ Use now</span></div>
+      <div>4,999 free de-identified transcription samples. Fills outpatient note gap MIMIC leaves. No DUA. Download as CSV.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 5. ANNOTATION -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-tag sec-icon" aria-hidden="true"></i><span class="sec-title">5 · Annotation protocol keynotes</span></div>
+  <div class="card">
+    <div class="kv"><span class="kk">Tool</span><span class="kv-val">Label Studio with 6 labels: HBA1C_VALUE · HBA1C_ABSENT · DIABETES_DX · QUALIFYING_VISIT · DENOMINATOR_EXCLUSION · DATE (nested)</span></div>
+    <div class="kv"><span class="kk">IRR gate</span><span class="kv-val">Cohen's Kappa ≥ 0.80 per label class before any model training. 30-case overlap batch per annotator pair. Calibration session if κ < 0.70.</span></div>
+    <div class="kv"><span class="kk">Scale</span><span class="kv-val">100–150 cases/measure. 80/20 train/test split. Test set locked — never used for prompt tuning.</span></div>
+    <div class="kv"><span class="kk">Minimum span rule</span><span class="kv-val">Shortest contiguous span that uniquely identifies the fact. Trim whitespace, conjunctions, punctuation from boundaries.</span></div>
+    <div class="kv"><span class="kk">Annotation guide</span><span class="kv-val">Full guide produced (diabetes_hba1c_annotation_guide.docx) — 10 sections including decision tables, worked examples, Label Studio XML config, IRR process, and escalation rules.</span></div>
+  </div>
+</div>
+
+<!-- 6. PHASE GATES -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-flag sec-icon" aria-hidden="true"></i><span class="sec-title">6 · Phase gates — nothing proceeds without these</span></div>
+  <div class="card">
+    <div class="gate-row"><span class="gate-phase"><span class="badge b-teal">Day 30</span></span><span class="gate-text">IRR κ ≥ 0.80 on all label classes · PHI guard passing on 100% of test bundles · Rules-only baseline F1 recorded · MIMIC-IV access application submitted</span></div>
+    <div class="gate-row"><span class="gate-phase"><span class="badge b-purple">Day 60</span></span><span class="gate-text">LLM extraction F1 ≥ 0.85 on held-out set · Hallucination guard blocking ≥ 95% of span-less claims · LLM F1 must exceed rules-only F1 · Reviewer UI usable by non-engineer</span></div>
+    <div class="gate-row"><span class="gate-phase"><span class="badge b-amber">Day 90</span></span><span class="gate-text">F1 ≥ 0.90 vs expert abstractors · Abstraction time reduction ≥ 50% (time-and-motion study) · Site-to-site F1 drop ≤ 0.05 · Technical report + model card published</span></div>
+    <div class="gate-row"><span class="gate-phase"><span class="badge b-blue">12 months</span></span><span class="gate-text">8+ measures live · Multi-site study published (3+ sites) · Open FHIR spec released · 0 PHI egress events · Preprint submitted</span></div>
+  </div>
+</div>
+
+<!-- 7. NIW PRONGS -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-scale sec-icon" aria-hidden="true"></i><span class="sec-title">7 · NIW petition structure (Matter of Dhanasar — PA-2025-03)</span></div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-label" style="color:#185FA5">Prong 1</div>
+      <div class="card-title">Substantial merit + national importance</div>
+      <div class="card-body">Technical novelty (hybrid RAG + rules), 5 technical contributions, CMS/QPP/ONC alignment, $2B+ VBP reimbursement impact, open spec design ensures impact beyond single employer.</div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="color:#0F6E56">Prong 2</div>
+      <div class="card-title">Well positioned to advance</div>
+      <div class="card-body">Three-domain nexus: FHIR pipeline architecture (current role) + clinical NLP pipeline (KaggleX/production) + AI evaluation (Outlier). M.S. Data Science, Northeastern. Direct alignment required by PA-2025-03.</div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="color:#633806">Prong 3</div>
+      <div class="card-title">Beneficial to waive labor certification</div>
+      <div class="card-body">Federal mandate urgency (21st Century Cures Act), market gap (no integrated solution exists), open research structure (not employer-dependent), public dataset anchoring.</div>
+    </div>
+  </div>
+  <div style="margin-top:10px;font-size:12px;color:var(--color-text-secondary);padding:8px 12px;background:var(--color-background-secondary);border-radius:var(--border-radius-md)">
+    <strong>10 exhibits identified</strong> for attorney: A) GitHub repo · B) Academic credentials · C) Employer letter · D) Technical report · E) Model card · F) CMS policy citations · G) Expert recommendation letters · H) Multi-site study · I) Preprint · J) Open FHIR spec
+  </div>
+</div>
+
+<!-- 8. PUBLISHING -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-file-text sec-icon" aria-hidden="true"></i><span class="sec-title">8 · Publishing pathway — no enrollment required</span></div>
+  <div class="card">
+    <div class="pub-row"><span class="pub-when">Day 90</span><span class="pub-text">Technical report → medRxiv preprint. DOI + timestamp within 24–48hrs. Immediately citable in I-140 petition as Exhibit I.</span></div>
+    <div class="pub-row"><span class="pub-when">Month 6</span><span class="pub-text">Multi-site generalization study → medRxiv + peer-reviewed journal submission (JAMIA or AMIA Annual Symposium).</span></div>
+    <div class="pub-row"><span class="pub-when">Month 9–12</span><span class="pub-text">Full system paper. Employer affiliation line is acceptable and standard. Northeastern alumni courtesy affiliation worth one email to advisor.</span></div>
+    <div class="pub-row"><span class="pub-when">Ongoing</span><span class="pub-text">Open FHIR IG published to GitHub + HL7 registry. Conference: AMIA 2025, HIMSS 2026, or NLP4Health (ACL/EMNLP).</span></div>
+  </div>
+</div>
+
+<!-- 9. FILES PRODUCED -->
+<div class="section">
+  <div class="sec-head"><i class="ti ti-package sec-icon" aria-hidden="true"></i><span class="sec-title">9 · Deliverables produced this session</span></div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-label">Code scaffold</div>
+      <div class="card-title">ecqm-copilot.zip</div>
+      <div class="card-body">FastAPI backend (5 pipeline modules) + Streamlit frontend (4 pages) + 2 measure YAMLs + 2 synthetic FHIR bundles + render.yaml + README/model card + startup script. 17 files.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Annotation guide</div>
+      <div class="card-title">diabetes_hba1c_annotation_guide.docx</div>
+      <div class="card-body">10-section Word document: label definitions, decision tables, worked examples, Label Studio XML config, IRR process, version history, quick reference card.</div>
+    </div>
+    <div class="card">
+      <div class="card-label">NIW petition package</div>
+      <div class="card-title">NIW_Petition_eCQM_Copilot.docx</div>
+      <div class="card-body">7-part petition support document: plain-language summary, all 3 Dhanasar prongs, full rollout plan with phase tables and gates, success metrics, 10-exhibit attorney checklist.</div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="divider"></div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+  <button class="ask-btn" onclick="sendPrompt('Draft the abstract and introduction for the medRxiv technical report')">Draft medRxiv abstract ↗</button>
+  <button class="ask-btn" onclick="sendPrompt('Write the expert recommendation letter template for NIW Exhibit G')">Draft Exhibit G recommendation letter ↗</button>
+  <button class="ask-btn" onclick="sendPrompt('Build the evaluation harness script for F1 vs gold labels')">Build eval harness script ↗</button>
+  <button class="ask-btn" onclick="sendPrompt('Write the ami_8a annotation guide')">AMI-8a annotation guide ↗</button>
+</div>
+
+</div>

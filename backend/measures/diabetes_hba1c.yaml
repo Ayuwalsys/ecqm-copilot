@@ -1,0 +1,38 @@
+id: diabetes_hba1c
+name: "Diabetes: HbA1c Poor Control (>9%)"
+version: "2024.1.0"
+cms_id: CMS122v12
+description: >
+  Percentage of patients 18–75 years of age with diabetes whose most recent
+  HbA1c level is greater than 9% (poor control) during the measurement period.
+
+numerator_threshold: 9.0        # HbA1c > this value = poor control
+age_range: [18, 75]
+measurement_period_months: 12
+
+denominator_criteria:
+  - diabetes_diagnosis: true     # ICD-10: E11.x or E10.x
+  - qualifying_visit: true       # ≥1 outpatient visit in measurement period
+
+denominator_exclusions:
+  - hospice_care
+  - advanced_illness_and_frailty
+  - pregnancy
+
+value_sets:
+  diabetes: ["E11", "E10", "E13"]   # ICD-10 prefixes
+  hba1c_loinc: ["4548-4", "17856-6", "59261-8"]
+
+# Concrete codes for denominator_exclusions above, checked structurally
+# (Condition.code.coding.code) by the rules-only baseline extractor.
+exclusion_value_sets:
+  hospice_care: ["Z51.5"]              # Encounter for palliative care
+  pregnancy: ["Z33.1", "O09"]          # Pregnant state, incidental / supervision of high-risk pregnancy
+  advanced_illness_and_frailty: ["R54"] # Age-related physical debility (illustrative proxy, not full CMS spec)
+
+qualifying_visit_encounter_class: "AMB"  # ambulatory encounter satisfies "qualifying visit"
+
+target_sections:
+  - laboratory
+  - labs
+  - assessment and plan

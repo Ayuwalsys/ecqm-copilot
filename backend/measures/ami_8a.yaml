@@ -1,0 +1,41 @@
+id: ami_8a
+name: "AMI-8a: Primary PCI Within 90 Minutes"
+version: "2024.1.0"
+cms_id: CMS53v12
+description: >
+  Percentage of AMI patients with ST-elevation on the ECG closest to arrival
+  whose time from hospital arrival to primary PCI is 90 minutes or less.
+
+pci_window_minutes: 90
+age_min: 18
+
+denominator_criteria:
+  - ami_diagnosis: true          # STEMI
+  - pci_performed: true
+  - age_gte: 18
+  - hospitalized: true
+
+denominator_exclusions:
+  - comfort_measures_only
+  - transfer_from_other_facility_with_pci
+  - pci_prior_to_arrival
+
+value_sets:
+  ami_icd10: ["I21.0", "I21.1", "I21.2", "I21.3", "I21.4"]
+  pci_cpt: ["92928", "92929", "92933", "92934", "92937", "92938", "92941", "92943"]
+
+# Concrete codes/fields for denominator_exclusions above, checked structurally
+# by the rules-only baseline extractor.
+exclusion_value_sets:
+  comfort_measures_only: ["Z51.5"]  # Encounter for palliative care, used as comfort-care proxy
+# transfer_from_other_facility_with_pci: derived from Encounter.hospitalization.admitSource.coding.code == "hosp-trans"
+# pci_prior_to_arrival: derived structurally — Procedure.performedDateTime < Encounter.period.start
+
+hospitalized_encounter_class: "IMP"  # inpatient encounter satisfies "hospitalized"
+transfer_admit_source_code: "hosp-trans"  # http://terminology.hl7.org/CodeSystem/admit-source
+
+target_sections:
+  - procedures
+  - history of present illness
+  - discharge summary
+  - assessment and plan

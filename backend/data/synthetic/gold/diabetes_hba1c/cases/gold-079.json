@@ -1,0 +1,95 @@
+{
+  "resourceType": "Bundle",
+  "id": "gold-079",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-079",
+        "birthDate": "1963-04-23",
+        "gender": "female"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-079",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I10",
+              "display": "Essential hypertension"
+            }
+          ],
+          "text": "Essential hypertension"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "onsetDateTime": "2024-09-25"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-079",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB"
+        },
+        "period": {
+          "start": "2024-09-25T09:00:00Z",
+          "end": "2024-09-25T10:00:00Z"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "obs-079",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c"
+            }
+          ],
+          "text": "Hemoglobin A1c"
+        },
+        "effectiveDateTime": "2024-09-25T09:00:00Z",
+        "valueQuantity": {
+          "value": 7.9,
+          "unit": "%",
+          "system": "http://unitsofmeasure.org",
+          "code": "%"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "note-079",
+        "status": "current",
+        "type": {
+          "text": "Progress Note"
+        },
+        "content": [
+          {
+            "attachment": {
+              "data": "ASSESSMENT AND PLAN:\nJamie is a 61-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 7.9% (2024-09-25).\n\nPLAN:\nContinue current management, follow up as scheduled."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

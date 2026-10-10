@@ -1,0 +1,89 @@
+{
+  "resourceType": "Bundle",
+  "id": "gold-069",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-069",
+        "birthDate": "1976-05-07",
+        "gender": "male"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-069",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I21.0",
+              "display": "ST elevation (STEMI) myocardial infarction"
+            }
+          ],
+          "text": "ST elevation (STEMI) myocardial infarction"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "onsetDateTime": "2024-02-23T14:02:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-069",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "period": {
+          "start": "2024-02-23T14:02:00Z",
+          "end": "2024-02-27T14:00:00Z"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-069",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "93000",
+              "display": "Diagnostic ECG"
+            }
+          ],
+          "text": "Diagnostic ECG"
+        },
+        "performedDateTime": "2024-02-23T14:02:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "note-069",
+        "status": "current",
+        "type": {
+          "text": "Discharge Summary"
+        },
+        "content": [
+          {
+            "attachment": {
+              "data": "HISTORY OF PRESENT ILLNESS:\nTaylor is a 48-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

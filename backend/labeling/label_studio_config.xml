@@ -1,0 +1,46 @@
+<!--
+  Label Studio labeling interface for eCQM abstraction (Phase 1 gold labeling
+  + IRR). Import this as the "Labeling Interface" config for a project, then
+  import backend/labeling/irr_batch/tasks.json as tasks.
+
+  Task data fields expected: case_id, measure_id, structured_summary, note_text.
+-->
+<View>
+  <Header value="Case $case_id — $measure_id"/>
+  <Text name="structured" value="$structured_summary"/>
+  <Text name="note_text" value="$note_text"/>
+
+  <View style="display:flex;gap:24px;margin-top:1em;padding:12px;border:1px solid #e2e8f0;border-radius:8px">
+    <View>
+      <Header value="Denominator" size="4"/>
+      <Choices name="denominator" toName="note_text" choice="single-radio" required="true">
+        <Choice value="Yes"/>
+        <Choice value="No"/>
+      </Choices>
+    </View>
+    <View>
+      <Header value="Numerator" size="4"/>
+      <Choices name="numerator" toName="note_text" choice="single-radio">
+        <Choice value="Yes"/>
+        <Choice value="No"/>
+        <Choice value="N/A (not in denominator or excluded)"/>
+      </Choices>
+    </View>
+    <View>
+      <Header value="Exclusion" size="4"/>
+      <Choices name="exclusion" toName="note_text" choice="single-radio" required="true">
+        <Choice value="Yes"/>
+        <Choice value="No"/>
+      </Choices>
+    </View>
+  </View>
+
+  <Header value="Evidence highlighting (optional — supports Phase 2 hallucination-guard evaluation)" size="5"/>
+  <Labels name="evidence" toName="note_text">
+    <Label value="Numerator evidence" background="#fef08a"/>
+    <Label value="Denominator evidence" background="#bbf7d0"/>
+    <Label value="Exclusion evidence" background="#fecaca"/>
+  </Labels>
+
+  <TextArea name="rationale" toName="note_text" placeholder="Optional rationale / notes" rows="2" editable="true"/>
+</View>

@@ -1,0 +1,312 @@
+{
+  "diabetes_hba1c": {
+    "measure_id": "diabetes_hba1c",
+    "n_cases": 130,
+    "denominator": {
+      "precision": 1.0,
+      "recall": 0.9216,
+      "f1": 0.9592,
+      "tp": 94,
+      "fp": 0,
+      "fn": 8,
+      "tn": 28,
+      "n": 130,
+      "accuracy": 0.9385
+    },
+    "exclusion": {
+      "precision": 1.0,
+      "recall": 0.8696,
+      "f1": 0.9302,
+      "tp": 20,
+      "fp": 0,
+      "fn": 3,
+      "tn": 79,
+      "n": 102,
+      "accuracy": 0.9706
+    },
+    "numerator": {
+      "precision": 0.8696,
+      "recall": 1.0,
+      "f1": 0.9302,
+      "tp": 40,
+      "fp": 6,
+      "fn": 0,
+      "tn": 33,
+      "n": 79,
+      "accuracy": 0.9241
+    },
+    "mismatches_by_case_type": {
+      "gap_dx_note_only": 8,
+      "gap_hba1c_good_control_note_only": 6
+    },
+    "mismatches": [
+      {
+        "case_id": "gold-114",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-115",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-116",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-117",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-118",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-119",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-120",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-121",
+        "case_type": "gap_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-122",
+        "case_type": "gap_hba1c_good_control_note_only",
+        "field": "numerator",
+        "predicted": true,
+        "gold": false
+      },
+      {
+        "case_id": "gold-123",
+        "case_type": "gap_hba1c_good_control_note_only",
+        "field": "numerator",
+        "predicted": true,
+        "gold": false
+      },
+      {
+        "case_id": "gold-124",
+        "case_type": "gap_hba1c_good_control_note_only",
+        "field": "numerator",
+        "predicted": true,
+        "gold": false
+      },
+      {
+        "case_id": "gold-125",
+        "case_type": "gap_hba1c_good_control_note_only",
+        "field": "numerator",
+        "predicted": true,
+        "gold": false
+      },
+      {
+        "case_id": "gold-126",
+        "case_type": "gap_hba1c_good_control_note_only",
+        "field": "numerator",
+        "predicted": true,
+        "gold": false
+      },
+      {
+        "case_id": "gold-127",
+        "case_type": "gap_hba1c_good_control_note_only",
+        "field": "numerator",
+        "predicted": true,
+        "gold": false
+      }
+    ]
+  },
+  "ami_8a": {
+    "measure_id": "ami_8a",
+    "n_cases": 130,
+    "denominator": {
+      "precision": 1.0,
+      "recall": 0.8723,
+      "f1": 0.9318,
+      "tp": 82,
+      "fp": 0,
+      "fn": 12,
+      "tn": 36,
+      "n": 130,
+      "accuracy": 0.9077
+    },
+    "exclusion": {
+      "precision": 1.0,
+      "recall": 0.8889,
+      "f1": 0.9412,
+      "tp": 24,
+      "fp": 0,
+      "fn": 3,
+      "tn": 67,
+      "n": 94,
+      "accuracy": 0.9681
+    },
+    "numerator": {
+      "precision": 1.0,
+      "recall": 0.8571,
+      "f1": 0.9231,
+      "tp": 36,
+      "fp": 0,
+      "fn": 6,
+      "tn": 25,
+      "n": 67,
+      "accuracy": 0.9104
+    },
+    "mismatches_by_case_type": {
+      "gap_pci_time_note_only": 12,
+      "gap_ami_dx_note_only": 6
+    },
+    "mismatches": [
+      {
+        "case_id": "gold-116",
+        "case_type": "gap_ami_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-117",
+        "case_type": "gap_ami_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-118",
+        "case_type": "gap_ami_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-119",
+        "case_type": "gap_ami_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-120",
+        "case_type": "gap_ami_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-121",
+        "case_type": "gap_ami_dx_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-122",
+        "case_type": "gap_pci_time_note_only",
+        "field": "numerator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-122",
+        "case_type": "gap_pci_time_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-123",
+        "case_type": "gap_pci_time_note_only",
+        "field": "numerator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-123",
+        "case_type": "gap_pci_time_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-124",
+        "case_type": "gap_pci_time_note_only",
+        "field": "numerator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-124",
+        "case_type": "gap_pci_time_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-125",
+        "case_type": "gap_pci_time_note_only",
+        "field": "numerator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-125",
+        "case_type": "gap_pci_time_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-126",
+        "case_type": "gap_pci_time_note_only",
+        "field": "numerator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-126",
+        "case_type": "gap_pci_time_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-127",
+        "case_type": "gap_pci_time_note_only",
+        "field": "numerator",
+        "predicted": false,
+        "gold": true
+      },
+      {
+        "case_id": "gold-127",
+        "case_type": "gap_pci_time_note_only",
+        "field": "denominator",
+        "predicted": false,
+        "gold": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "data": {
+      "case_id": "gold-069",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=2012-11-02, gender=male\nEncounter: class=AMB, 2024-01-24T09:00:00Z -> 2024-01-24T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nObservation: Hemoglobin A1c = 6.7 % (2024-01-24T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-069]\nASSESSMENT AND PLAN:\nJordan is a 60-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 6.7% (2024-01-24).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-076",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1958-07-11, gender=male\nEncounter: class=AMB, 2024-10-22T09:00:00Z -> 2024-10-22T10:00:00Z\nCondition: I10 Essential hypertension\nObservation: Hemoglobin A1c = 7.4 % (2024-10-22T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-076]\nASSESSMENT AND PLAN:\nDrew is a 66-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 7.4% (2024-10-22).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-088",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1978-02-13, gender=female\nEncounter: class=EMER, 2024-08-04T09:00:00Z -> 2024-08-04T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nObservation: Hemoglobin A1c = 6.2 % (2024-08-04T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-088]\nASSESSMENT AND PLAN:\nAlex is a 46-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 6.2% (2024-08-04).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-108",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1965-03-16, gender=female\nEncounter: class=AMB, 2024-02-21T09:00:00Z -> 2024-02-21T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nCondition: R54 Exclusion condition\nObservation: Hemoglobin A1c = 7.5 % (2024-02-21T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-108]\nASSESSMENT AND PLAN:\nJordan is a 59-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 7.5% (2024-02-21).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-098",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1974-01-03, gender=male\nEncounter: class=AMB, 2024-10-09T09:00:00Z -> 2024-10-09T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nCondition: Z51.5 Exclusion condition\nObservation: Hemoglobin A1c = 8.8 % (2024-10-09T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-098]\nASSESSMENT AND PLAN:\nJamie is a 50-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 8.8% (2024-10-09).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-105",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1955-08-25, gender=male\nEncounter: class=AMB, 2024-08-21T09:00:00Z -> 2024-08-21T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nCondition: Z33.1 Exclusion condition\nObservation: Hemoglobin A1c = 6.6 % (2024-08-21T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-105]\nASSESSMENT AND PLAN:\nRiley is a 69-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 6.6% (2024-08-21).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-117",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1973-07-21, gender=male\nEncounter: class=AMB, 2024-10-23T09:00:00Z -> 2024-10-23T10:00:00Z\nCondition: I10 Essential hypertension\nObservation: Hemoglobin A1c = 8.5 % (2024-10-23T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-117]\nASSESSMENT AND PLAN:\nCasey is a 51-year-old patient presenting for follow-up.\n\nHISTORY OF PRESENT ILLNESS:\nCasey has a documented history of type 2 diabetes managed with metformin, per outside records not yet coded in this chart.\n\nLABORATORY:\nHbA1c 8.5% (2024-10-23).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-130",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1971-05-11, gender=female\nEncounter: class=AMB, 2024-03-03T09:00:00Z -> 2024-03-03T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nObservation: Hemoglobin A1c = 6.5 % (2024-03-03T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-130]\nASSESSMENT AND PLAN:\nRobin is a 53-year-old patient presenting for follow-up.\n\nASSESSMENT AND PLAN:\nFamily meeting held; patient enrolled in hospice care effective this visit, comfort-focused management going forward.\n\nLABORATORY:\nHbA1c 6.5% (2024-03-03).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-123",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1955-08-19, gender=male\nEncounter: class=AMB, 2024-11-08T09:00:00Z -> 2024-11-08T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications",
+      "note_text": "[Progress Note \u2014 note-123]\nASSESSMENT AND PLAN:\nJamie is a 69-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c drawn at outside lab on 2024-11-08: 8.0% (result relayed verbally, not yet resulted in this EHR).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-045",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1992-04-27, gender=female\nEncounter: class=AMB, 2024-08-08T09:00:00Z -> 2024-08-08T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nObservation: Hemoglobin A1c = 8.5 % (2024-08-08T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-045]\nASSESSMENT AND PLAN:\nJamie is a 32-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 8.5% (2024-08-08).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-020",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1986-09-06, gender=female\nEncounter: class=AMB, 2024-11-16T09:00:00Z -> 2024-11-16T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nObservation: Hemoglobin A1c = 12.1 % (2024-11-16T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-020]\nASSESSMENT AND PLAN:\nTaylor is a 38-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 12.1% (2024-11-16).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-056",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1965-10-07, gender=female\nEncounter: class=AMB, 2024-07-21T09:00:00Z -> 2024-07-21T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications",
+      "note_text": "[Progress Note \u2014 note-056]\nASSESSMENT AND PLAN:\nJordan is a 59-year-old patient presenting for follow-up.\n\nLABORATORY:\nNo HbA1c on file for this measurement period.\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-068",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1946-07-09, gender=female\nEncounter: class=AMB, 2024-01-09T09:00:00Z -> 2024-01-09T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nObservation: Hemoglobin A1c = 7.3 % (2024-01-09T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-068]\nASSESSMENT AND PLAN:\nDrew is a 41-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 7.3% (2024-01-09).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-084",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1977-09-20, gender=female\nEncounter: class=AMB, 2024-10-25T09:00:00Z -> 2024-10-25T10:00:00Z\nCondition: I10 Essential hypertension\nObservation: Hemoglobin A1c = 8.8 % (2024-10-25T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-084]\nASSESSMENT AND PLAN:\nDrew is a 47-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 8.8% (2024-10-25).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-086",
+      "measure_id": "diabetes_hba1c",
+      "structured_summary": "Patient: birthDate=1977-09-10, gender=male\nEncounter: class=EMER, 2024-01-02T09:00:00Z -> 2024-01-02T10:00:00Z\nCondition: E11.9 Type 2 diabetes mellitus without complications\nObservation: Hemoglobin A1c = 7.8 % (2024-01-02T09:00:00Z)",
+      "note_text": "[Progress Note \u2014 note-086]\nASSESSMENT AND PLAN:\nTaylor is a 47-year-old patient presenting for follow-up.\n\nLABORATORY:\nHbA1c 7.8% (2024-01-02).\n\nPLAN:\nContinue current management, follow up as scheduled."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-086",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=2009-11-03, gender=female\nEncounter: class=IMP, 2024-08-17T13:49:00Z -> 2024-08-21T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-08-17T14:27:00Z",
+      "note_text": "[Discharge Summary \u2014 note-086]\nHISTORY OF PRESENT ILLNESS:\nCasey is a 65-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 38 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-057",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1974-07-03, gender=male\nEncounter: class=IMP, 2024-05-15T16:09:00Z -> 2024-05-19T14:00:00Z\nCondition: R07.9 Chest pain, unspecified\nProcedure: Primary PCI at 2024-05-15T17:31:00Z",
+      "note_text": "[Discharge Summary \u2014 note-057]\nHISTORY OF PRESENT ILLNESS:\nJordan is a 50-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 82 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-070",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1982-09-16, gender=female\nEncounter: class=IMP, 2024-06-10T16:25:00Z -> 2024-06-14T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Diagnostic ECG at 2024-06-10T16:25:00Z",
+      "note_text": "[Discharge Summary \u2014 note-070]\nHISTORY OF PRESENT ILLNESS:\nMorgan is a 42-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-078",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1980-06-13, gender=male\nEncounter: class=AMB, 2024-04-25T20:23:00Z -> 2024-04-28T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-04-25T21:31:00Z",
+      "note_text": "[Discharge Summary \u2014 note-078]\nHISTORY OF PRESENT ILLNESS:\nTaylor is a 44-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 68 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-099",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1968-01-13, gender=male\nEncounter: class=IMP, 2024-06-25T12:23:00Z -> 2024-06-28T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nCondition: Z51.5 Encounter for palliative care\nProcedure: Primary PCI at 2024-06-25T13:29:00Z",
+      "note_text": "[Discharge Summary \u2014 note-099]\nHISTORY OF PRESENT ILLNESS:\nTaylor is a 56-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 66 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-112",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1955-11-25, gender=female\nEncounter: class=IMP, 2024-09-11T17:22:00Z -> 2024-09-15T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-09-11T16:52:00Z",
+      "note_text": "[Discharge Summary \u2014 note-112]\nHISTORY OF PRESENT ILLNESS:\nTaylor is a 69-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 69 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-106",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1961-10-10, gender=male\nEncounter: class=IMP, 2024-06-22T03:26:00Z -> 2024-06-26T14:00:00Z\n  admitSource=hosp-trans\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-06-22T04:34:00Z",
+      "note_text": "[Discharge Summary \u2014 note-106]\nHISTORY OF PRESENT ILLNESS:\nAlex is a 63-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 68 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-116",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1966-06-15, gender=female\nEncounter: class=IMP, 2024-01-10T22:05:00Z -> 2024-01-14T14:00:00Z\nCondition: R07.9 Chest pain, unspecified\nProcedure: Primary PCI at 2024-01-10T23:22:00Z",
+      "note_text": "[Discharge Summary \u2014 note-116]\nHISTORY OF PRESENT ILLNESS:\nTaylor is a 58-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nTaylor has a history documented only in the transfer paperwork narrative of anterior STEMI diagnosed at the outside facility prior to transfer.\n\nPROCEDURES:\nDoor-to-balloon time was 77 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-128",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1969-05-19, gender=male\nEncounter: class=IMP, 2024-08-25T08:21:00Z -> 2024-08-28T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-08-25T09:07:00Z",
+      "note_text": "[Discharge Summary \u2014 note-128]\nHISTORY OF PRESENT ILLNESS:\nJamie is a 55-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nNote: patient was transferred from an outside hospital where primary PCI had already been performed prior to arrival here.\n\nPROCEDURES:\nDoor-to-balloon time was 46 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-126",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1973-07-27, gender=female\nEncounter: class=IMP, 2024-10-28T20:57:00Z -> 2024-10-28T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Diagnostic ECG at 2024-10-28T20:57:00Z",
+      "note_text": "[Discharge Summary \u2014 note-126]\nHISTORY OF PRESENT ILLNESS:\nMorgan is a 51-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 50 minutes; primary PCI performed with stent placement (procedure not yet coded in this record).\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-049",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1949-03-22, gender=male\nEncounter: class=IMP, 2024-07-21T10:52:00Z -> 2024-07-25T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-07-21T14:11:00Z",
+      "note_text": "[Discharge Summary \u2014 note-049]\nHISTORY OF PRESENT ILLNESS:\nCasey is a 75-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 199 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-006",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1953-09-05, gender=female\nEncounter: class=IMP, 2024-02-04T07:56:00Z -> 2024-02-08T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-02-04T09:03:00Z",
+      "note_text": "[Discharge Summary \u2014 note-006]\nHISTORY OF PRESENT ILLNESS:\nCasey is a 71-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 67 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-090",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=2008-10-21, gender=male\nEncounter: class=IMP, 2024-01-03T01:41:00Z -> 2024-01-07T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Primary PCI at 2024-01-03T03:00:00Z",
+      "note_text": "[Discharge Summary \u2014 note-090]\nHISTORY OF PRESENT ILLNESS:\nRobin is a 42-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 79 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-059",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1961-02-27, gender=female\nEncounter: class=IMP, 2024-04-01T10:59:00Z -> 2024-04-05T14:00:00Z\nCondition: R07.9 Chest pain, unspecified\nProcedure: Primary PCI at 2024-04-01T12:19:00Z",
+      "note_text": "[Discharge Summary \u2014 note-059]\nHISTORY OF PRESENT ILLNESS:\nJordan is a 63-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 80 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  },
+  {
+    "data": {
+      "case_id": "gold-067",
+      "measure_id": "ami_8a",
+      "structured_summary": "Patient: birthDate=1962-02-25, gender=female\nEncounter: class=IMP, 2024-04-24T21:40:00Z -> 2024-04-28T14:00:00Z\nCondition: I21.0 ST elevation (STEMI) myocardial infarction\nProcedure: Diagnostic ECG at 2024-04-24T21:40:00Z",
+      "note_text": "[Discharge Summary \u2014 note-067]\nHISTORY OF PRESENT ILLNESS:\nJordan is a 62-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+    }
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "resourceType": "Bundle",
+  "id": "gold-049",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-049",
+        "birthDate": "1949-03-22",
+        "gender": "male"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-049",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I21.0",
+              "display": "ST elevation (STEMI) myocardial infarction"
+            }
+          ],
+          "text": "ST elevation (STEMI) myocardial infarction"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "onsetDateTime": "2024-07-21T10:52:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-049",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "period": {
+          "start": "2024-07-21T10:52:00Z",
+          "end": "2024-07-25T14:00:00Z"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-049",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "92928",
+              "display": "Primary PCI"
+            }
+          ],
+          "text": "Primary PCI"
+        },
+        "performedDateTime": "2024-07-21T14:11:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "note-049",
+        "status": "current",
+        "type": {
+          "text": "Discharge Summary"
+        },
+        "content": [
+          {
+            "attachment": {
+              "data": "HISTORY OF PRESENT ILLNESS:\nCasey is a 75-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 199 minutes; primary PCI performed with drug-eluting stent placement.\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "generator": "scripts/generate_gold_cases.py",
+  "seed": 42,
+  "schema_version": "1.0",
+  "counts": {
+    "diabetes_hba1c": 130,
+    "ami_8a": 130
+  },
+  "case_type_distribution": {
+    "diabetes_hba1c": {
+      "numerator_true_high": 30,
+      "numerator_false_controlled": 25,
+      "numerator_true_missing": 10,
+      "denominator_false_age": 10,
+      "denominator_false_no_dx": 10,
+      "denominator_false_no_visit": 8,
+      "exclusion_hospice": 7,
+      "exclusion_pregnancy": 7,
+      "exclusion_frailty": 6,
+      "gap_dx_note_only": 8,
+      "gap_hba1c_good_control_note_only": 6,
+      "gap_exclusion_note_only": 3
+    },
+    "ami_8a": {
+      "numerator_true_fast_pci": 30,
+      "numerator_false_slow_pci": 25,
+      "denominator_false_no_ami_dx": 10,
+      "denominator_false_no_pci": 10,
+      "denominator_false_not_hospitalized": 8,
+      "denominator_false_age": 8,
+      "exclusion_comfort_measures": 8,
+      "exclusion_transfer": 8,
+      "exclusion_pci_prior_to_arrival": 8,
+      "gap_ami_dx_note_only": 6,
+      "gap_pci_time_note_only": 6,
+      "gap_exclusion_note_only": 3
+    }
+  }
+}

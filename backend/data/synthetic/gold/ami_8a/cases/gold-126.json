@@ -1,0 +1,89 @@
+{
+  "resourceType": "Bundle",
+  "id": "gold-126",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pt-126",
+        "birthDate": "1973-07-27",
+        "gender": "female"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cond-126",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10",
+              "code": "I21.0",
+              "display": "ST elevation (STEMI) myocardial infarction"
+            }
+          ],
+          "text": "ST elevation (STEMI) myocardial infarction"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "code": "active"
+            }
+          ]
+        },
+        "onsetDateTime": "2024-10-28T20:57:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "enc-126",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "IMP"
+        },
+        "period": {
+          "start": "2024-10-28T20:57:00Z",
+          "end": "2024-10-28T14:00:00Z"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "proc-126",
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "93000",
+              "display": "Diagnostic ECG"
+            }
+          ],
+          "text": "Diagnostic ECG"
+        },
+        "performedDateTime": "2024-10-28T20:57:00Z"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "DocumentReference",
+        "id": "note-126",
+        "status": "current",
+        "type": {
+          "text": "Discharge Summary"
+        },
+        "content": [
+          {
+            "attachment": {
+              "data": "HISTORY OF PRESENT ILLNESS:\nMorgan is a 51-year-old presenting with acute chest pain and ST-elevation on ECG, consistent with STEMI.\n\nPROCEDURES:\nDoor-to-balloon time was 50 minutes; primary PCI performed with stent placement (procedure not yet coded in this record).\n\nDISCHARGE SUMMARY:\nPatient tolerated procedure well; discharged on guideline-directed medical therapy."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
